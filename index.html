@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ACMC21 Schedule
+title: A Great Website
 ---
 
 <div class="schedule">
@@ -15,13 +15,6 @@ title: ACMC21 Schedule
 			<span data-room="room-2">Room 2</span>
 			<span data-room="room-3">Room 3</span>
 		</header>
-<!--    
-		<div class="wrapper" id="satur">
-			<div class="day">Day</div>
-			<div class="two" data-room="room-2">Room 1</div>
-			<div class="three" data-room="room-3">Room 2</div>
-			<div class="four" data-room="room-3">Room 3</div>
-		  </div> -->
 
 		{% for post in site.categories.session reversed %}
 			{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
