@@ -19,7 +19,6 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
     clear: none;
     font-family: $font-header;
     letter-spacing: 2px;
-    line-height: 1.45;
   }
   .schedule [data-room="room-1"] {
     width: 25.53191%;
