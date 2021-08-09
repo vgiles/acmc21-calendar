@@ -1,32 +1,7 @@
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'),
-      url('./fonts/roboto/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('./fonts/roboto/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('./fonts/roboto/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/roboto/roboto-slab-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'icons';
-  font-display: swap;
-  font-weight: normal;
-  font-style: normal;
-  src: url('./fonts/icons/icons.woff2?30') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/icons/icons.woff?30') format('woff'); /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
+$font-header: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
+$font-body: "Roboto", "Rubic", "Poppins", "Hel­vetica", Arial, sans-serif;
+$font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace;
 
 /**
  * Schedule layout
@@ -52,6 +27,7 @@
     margin-right: -100%;
     margin-left: 19.14894%;
     clear: none;
+    font-family: $font-body;
   }
   .schedule [data-room="room-2"] {
     width: 25.53191%;
@@ -59,6 +35,7 @@
     margin-right: -100%;
     margin-left: 46.80851%;
     clear: none;
+    font-family: $font-body;
   }
   .schedule [data-room="room-3"] {
     width: 25.53191%;
@@ -66,6 +43,7 @@
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    font-family: $font-body;
   }
   .schedule .session .meta .room {
     display: none;
@@ -76,6 +54,6 @@
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    font-family: $font-body;
   }
 }
-
