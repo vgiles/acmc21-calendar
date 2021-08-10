@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Jekyll-powered Event Schedule
+title: ACMC21 Schedule
 ---
-
+<div class="aligncenter"><img src="./img/acmc21-big.png" alt="the ACMC21 banner image"></img></div>
 <div class="schedule">
 	<h1 class="title">{{ page.title }}</h1>
 
-	<p>You are viewing the demo for a <a href="http://github.com/fourkitchens/jekyll-schedule">Jekyll-powered event schedule</a>.</p>
-	<p><a href="http://fourkitchens.com/blog/2013/07/10/jekyll-event-schedule">Read more about how it was built</a> or <a href="http://2013.drupalcampaustin.org/schedule/">see a finished, branded version</a>.</p>
-	<p>Feel free to use it for your conference!</p>
+	<p class="body">This is some text</p>
 
 	<section id="satur" class="day">
-		<header>
+	<header>
 			<h2>Saturday</h2>
 			<span data-room="room-1">Room 1</span>
 			<span data-room="room-2">Room 2</span>
@@ -25,9 +23,10 @@ title: Jekyll-powered Event Schedule
 			{% endif %}
 		{% endfor %}
 
-	</section><!-- #satur.day -->
+ </section>
+	<!-- #satur.day -->
 
-	<!-- section id="sun" class="day">
+	<section id="sun" class="day">
 		<header>
 			<h2>Sunday</h2>
 			<span data-room="room-1">Room 1</span>
@@ -41,18 +40,7 @@ title: Jekyll-powered Event Schedule
 		{% endif %}
 		{% endfor %}
 
-	</section><!-- #sun.day -->
+	</section>
+	<!-- #sun.day -->
 
-</div><!-- .schedule -->
 
-footer {
-  padding-bottom: 1em;
-  .icon {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 2em;
-  }
-  a > .icon {
-    color: $white;
-  }
-}
