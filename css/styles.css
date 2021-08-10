@@ -114,3 +114,15 @@ html {
   
   scroll-behavior: smooth;
 }
+
+footer {
+  padding-bottom: 1em;
+  .icon {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  a > .icon {
+    color: $white;
+  }
+}
