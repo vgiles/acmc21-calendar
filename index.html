@@ -33,11 +33,11 @@ title: ACMC21 Schedule
 			<span data-room="room-2">Room 2</span>
 			<span data-room="room-3">Room 3</span>
 		</header>
-
 		{% for post in site.categories.session reversed %}
-		{% if post.day == 'Sunday' %}
-			{% include schedule-day.html %}
-		{% endif %}
+			{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+			{% if day == 'Sunday' %}
+				{% include schedule-day.html %}
+			{% endif %}
 		{% endfor %}
 
 	</section>
@@ -46,5 +46,5 @@ title: ACMC21 Schedule
 </div>
 <!-- .schedule -->
 </div>
-
-<div class="footer">A nifty footer. </div>
+<!-- 
+<div class="footer">A nifty footer. </div> -->
