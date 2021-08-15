@@ -18,7 +18,7 @@ title: ACMC21 Schedule
 
 		{% for post in site.categories.session reversed %}
 			{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-			{% if day == 'Saturday' %}
+			{% if day == 'Thursday' %}
 				{% include schedule-day.html %}
 			{% endif %}
 		{% endfor %}
@@ -35,7 +35,7 @@ title: ACMC21 Schedule
 		</header>
 		{% for post in site.categories.session reversed %}
 			{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-			{% if day == 'Sunday' %}
+			{% if day == 'Friday' %}
 				{% include schedule-day.html %}
 			{% endif %}
 		{% endfor %}
