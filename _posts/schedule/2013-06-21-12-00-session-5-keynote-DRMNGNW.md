@@ -9,7 +9,7 @@ title: Session 6 - ACMC'21 Keynote - Neil Morris/DRMNGNOW
 summary:
 presenters: Neil Morris
 
-date: 2013-06-21 12:00pm
+date: 2013-06-21 12:00
 room: full
 ---
 
