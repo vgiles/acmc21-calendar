@@ -9,7 +9,7 @@ title: Registration
 summary:
 presenters:
 
-date: 2013-06-20 08:30
+date: 2013-06-20 8:00am
 # day: Thursday
 # start: 8:30am
 room: full
