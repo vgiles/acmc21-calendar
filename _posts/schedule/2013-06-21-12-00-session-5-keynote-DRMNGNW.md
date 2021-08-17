@@ -1,11 +1,11 @@
 ---
 layout: session-details
 category: session
-permalink:
+permalink: /sessions/session-16/
 accepted: true
 published: true 
 
-title: Keynote - Neil Morris/DRMNGNOW
+title: Session 6 - ACMC'21 Keynote - Neil Morris/DRMNGNOW
 summary:
 presenters: Neil Morris
 
