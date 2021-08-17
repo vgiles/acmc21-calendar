@@ -48,7 +48,7 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
   font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
   font-size: "18";
   text-align: center;
-  background-color: rgb(205, 235, 245);
+  background-color: rgb(244, 252, 255);
 }
 
 /**
@@ -67,7 +67,7 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
     clear: none;
     font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
     font-weight: 300;
-    background-color: rgb(115, 189, 210);
+    background-color: rgb(157, 204, 217);
   }
   .schedule [data-room="room-1"] {
     width: 25.53191%;
@@ -106,7 +106,7 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
     margin-right: 0;
     clear: none;
     font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-    background-color:rgb(218, 252, 242);
+    background-color:rgb(236, 249, 245);
   }
 }
 
