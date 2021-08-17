@@ -10,7 +10,8 @@ summary:
 presenters:
 
 # date: 2013-06-20 08:30
-start: "8:30am"
+day: Thursday
+start: 8:30am
 room: full
 ---
 
