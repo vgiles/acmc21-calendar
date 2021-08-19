@@ -143,14 +143,14 @@ footer {
   font-size: 16px;
 }
 
-/* aside {
+aside {
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
   font-style: italic;
-  background-color: lightgray;
-} */
+  background-color: rgb(207, 207, 174);
+}
 
 .desc {
   background-color:rgb(217, 220, 220);
