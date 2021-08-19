@@ -154,6 +154,6 @@ footer {
 
 .desc {
   background-color:rgb(217, 220, 220);
-  text-indent: 50px;
-
+  margin-left: 50px;
+  line-height: 1.5;
 }
