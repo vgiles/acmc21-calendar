@@ -95,9 +95,11 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
     font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
   }
   .schedule .session .meta .room {
+    text-align: center;
     display: none;
     font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
     font-weight:400;
+    background-color:rgb(157, 204, 217);
   }
   .schedule .full {
     width: 80.85106%;
@@ -128,4 +130,15 @@ footer {
   a > .icon {
     color: $white;
   }
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
