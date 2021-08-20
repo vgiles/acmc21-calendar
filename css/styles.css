@@ -144,8 +144,8 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
   
   aside {
     width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+    padding-left: 1%;
+    margin-left: 1%;
     float: right;
     font-style: italic;
     background-color: rgb(207, 207, 174);
@@ -153,114 +153,13 @@ $font-code: "Roboto Mono", "Menlo", "Monaco", "Andale Mono", "lucida console", "
   
   .desc {
     background-color:rgb(217, 220, 220);
-    margin-left: 50px;
+    margin-left: 3%;
     line-height: 1.5;
-    margin-right: 50px;
+    margin-right: 3%;
   }
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    .schedule h3.time {
-      width: 17.02128%;
-      float: left;
-      margin-right: -100%;
-      margin-left: 0%;
-      clear: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-      font-weight: 300;
-      background-color: rgb(157, 204, 217);
-    }
-    .schedule [data-room="room-1"] {
-      width: 25.53191%;
-      float: left;
-      margin-right: -100%;
-      margin-left: 19.14894%;
-      clear: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-      font-weight:300;
-    }
-    .schedule [data-room="room-2"] {
-      width: 25.53191%;
-      float: left;
-      margin-right: -100%;
-      margin-left: 46.80851%;
-      clear: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-    }
-    .schedule [data-room="room-3"] {
-      width: 25.53191%;
-      float: right;
-      margin-left: 0;
-      margin-right: 0;
-      clear: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-    }
-    .schedule .session .meta .room {
-      text-align: center;
-      display: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-      font-weight:400;
-      background-color:rgb(157, 204, 217);
-    }
-    .schedule .full {
-      width: 80.85106%;
-      float: right;
-      margin-left: 0;
-      margin-right: 0;
-      clear: none;
-      font-family: "Roboto Slab", "Bitter", "Ubuntu", Georgia, serif;
-      background-color:rgb(236, 249, 245);
-    }
-    html {
-      box-sizing: inherit;
-      
-      overflow-x: hidden;
-      
-      scroll-behavior: smooth;
-    }
-    
-    footer {
-      padding-bottom: 1em;
-      .icon {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        font-size: 2em;
-      }
-      a > .icon {
-        color: $white;
-      }
-    }
-    
-    .button {
-      background-color: #4CAF50; /* Green */
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-    }
-    
-    aside {
-      width: 30%;
-      padding-left: 15px;
-      margin-left: 15px;
-      float: right;
-      font-style: italic;
-      background-color: rgb(207, 207, 174);
-    }
-    
-    .desc {
-      background-color:rgb(217, 220, 220);
-      margin-left: 50px;
-      line-height: 1.5;
-      margin-right: 50px;
-    }
-}
+
 
 /* @media (min-width: 51.25em) {
   .schedule h3.time {
