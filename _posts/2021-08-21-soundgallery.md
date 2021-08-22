@@ -11,7 +11,7 @@ title: ACMC21 Sound Gallery
 |ORDER|MEDIA|CONTACT|TITLE|DURATION|
 |-----|------|-----|-----|-----|
 |1|	A/V	|[Wayne De Fer](mailto:wdefehr@gmail.com)	|Wind in the Trees: The Ghosts on the Schoolyards of Canadian Residential Schools|	9:59|
-|2|	Audio/VR|	[Patrick Hartono](mailto:hartono.patrick@gmail.com) |	[New (N)ormal](Link to VR)	|7:41 |
+|2|	Audio/VR|	[Patrick Hartono](mailto:hartono.patrick@gmail.com) |	[New (N)ormal](https://hubs.mozilla.com/5JouPDg/dystopia-trilogy-for-webvr-or-mozilla-hubs) & [Video Demo](https://youtu.be/HuoUVKb45Tk)|7:41 |
 |3|	A/V|	[Carey Campbell](mailto:careycampbell74@gmail.com)|	quiet places elude me (AnxStudy3)|	9:43|
 |4|	Audio|	[Michael Lukaszuk](mailto:michael.paul.lukaszuk@gmail.com)| Habitats - Rituals|	3:04|
 |5	|Audio	|[Vicki Hallett](maito:info@vickihallett.com)	|Ebb & Flow	|3:02|
