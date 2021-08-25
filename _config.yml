@@ -1,3 +1,4 @@
 permalink: pretty
 future: true
 
+plugins: [youtube]
