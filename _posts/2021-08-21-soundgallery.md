@@ -4,7 +4,7 @@ published: true
 accepted: true
 category: session
 permalink: /misc/soundgallery/
-zoom: Zoom Link 1
+zoom: https://youtu.be/BDnawhwtrGw
 title: ACMC21 Sound Gallery
 ---
 
