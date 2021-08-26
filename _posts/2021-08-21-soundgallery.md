@@ -4,7 +4,7 @@ published: true
 accepted: true
 category: session
 permalink: /misc/soundgallery/
-zoom: https://youtu.be/AaKt4JVT80U
+zoom: https://youtu.be/dEYsksY1lHc
 title: ACMC21 Sound Gallery
 ---
 
@@ -28,7 +28,7 @@ title: ACMC21 Sound Gallery
 |16|	Audio|	[Sophie Rose](mailto:Sophie.Rose@aim.edu.au)|Ode to My Frayed Nerves	|18:06|
 |17| Audio|  [Ros Bandt](mailto:ros.bandt@gmail.com) | Medusa Dreaming | 6:31|
 
-{% youtube AaKt4JVT80U %}
+{% youtube dEYsksY1lHc %}
 
 
 
